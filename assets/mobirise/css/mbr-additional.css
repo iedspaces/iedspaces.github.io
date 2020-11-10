@@ -637,7 +637,6 @@ section.lazy-placeholder:after {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
-  background: none;
 }
 .cid-sby9dBx2oe .navbar.opened {
   transition: all .3s;
@@ -920,78 +919,79 @@ section.lazy-placeholder:after {
 .cid-sby9dBx2oe .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-#custom-html-0 {
-  /* Type valid CSS here */
+.cid-sfZ8s0DoH5 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../../../assets/images/science-720x305.png");
 }
-#custom-html-0 div {
-  padding: 80px 0;
-  color: #777;
-  text-align: center;
-}
-#custom-html-0 p {
-  font-size: 60px;
-  color: #777;
-}
-.cid-sbz4BtY6iH {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-sbz4BtY6iH .card-title {
-  letter-spacing: 0.03em;
-  color: #232323;
-  margin: 0;
-  padding: 0;
-  padding-bottom: 1.5rem;
-}
-.cid-sbz4BtY6iH .card {
-  margin-bottom: 2rem;
-}
-.cid-sbz4BtY6iH .card-box {
-  word-break: break-word;
-  padding-top: 2rem;
-}
-.cid-sbz4BtY6iH .card-box p {
-  color: #444;
-  letter-spacing: 0.03em;
-  margin: 0;
-  padding-bottom: 1.5rem;
-}
-.cid-sbz4BtY6iH .btn {
-  margin: .3rem;
-}
-.cid-sbz4BtY6iH .mbr-section-title {
-  margin: 0;
-}
-.cid-sbz4BtY6iH .card-underline,
-.cid-sbz4BtY6iH .underline {
-  margin-top: -0.5rem;
-  margin-bottom: -0.5rem;
-}
-.cid-sbz4BtY6iH .card-underline .line,
-.cid-sbz4BtY6iH .underline .line {
-  width: 3rem;
-  height: 2px;
-  background: #444444;
+.cid-sfZ8s0DoH5 .slider-text-two {
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
   display: inline-block;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  outline-offset: -15px;
+  padding: 65px 50px;
+  position: relative;
 }
-.cid-sbz4BtY6iH .card-underline {
-  margin-bottom: 1.5rem;
-  margin-top: 0 !important;
+.cid-sfZ8s0DoH5 .mbr-section-title,
+.cid-sfZ8s0DoH5 .mbr-section-subtitle {
+  color: #232323;
 }
-.cid-sbz4BtY6iH .card-underline .line {
-  background: #ffbc00;
+.cid-sfZ8s0DoH5 .mbr-section-subtitle span {
+  font-weight: bold;
+}
+.cid-sfZ8s0DoH5 .mbr-text {
+  color: #232323;
+  font-weight: 100;
+}
+.cid-sfZ8s0DoH5 .mbr-section-btn {
+  color: white;
 }
 @media (max-width: 767px) {
-  .cid-sbz4BtY6iH .row.blog-block {
-    padding: 0 1rem;
+  .cid-sfZ8s0DoH5 .row {
+    margin-left: -15px;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .cid-sbz4BtY6iH .row-content {
-    min-width: 100%;
+  .cid-sfZ8s0DoH5 .slider-text-two {
+    outline: 15px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
-  .cid-sbz4BtY6iH .card {
-    display: block;
+}
+.cid-sfZ8GGw3V1 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url("../../../assets/images/enigma-portal-720x305.png");
+}
+.cid-sfZ8GGw3V1 .slider-text-two {
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+  display: inline-block;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  outline-offset: -15px;
+  padding: 65px 50px;
+  position: relative;
+}
+.cid-sfZ8GGw3V1 .mbr-section-title,
+.cid-sfZ8GGw3V1 .mbr-section-subtitle {
+  color: #232323;
+}
+.cid-sfZ8GGw3V1 .mbr-section-subtitle span {
+  font-weight: bold;
+}
+.cid-sfZ8GGw3V1 .mbr-text {
+  color: #232323;
+  font-weight: 100;
+}
+.cid-sfZ8GGw3V1 .mbr-section-btn {
+  color: white;
+}
+@media (max-width: 767px) {
+  .cid-sfZ8GGw3V1 .row {
+    margin-left: -15px;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cid-sfZ8GGw3V1 .slider-text-two {
+    outline: 15px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
   }
 }
