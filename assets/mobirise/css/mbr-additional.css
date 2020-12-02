@@ -487,9 +487,20 @@ a.text-black:focus {
 .alert-danger {
   background-color: #444444;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
 .mbr-section-btn a.btn:not(.btn-form):hover,
 .mbr-section-btn a.btn:not(.btn-form):focus {
   box-shadow: none !important;
+}
+.mbr-section-btn a.btn:not(.btn-form):hover,
+.mbr-section-btn a.btn:not(.btn-form):focus {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
 }
 .mbr-gallery-filter li.active .btn {
   background-color: #000000;
@@ -498,6 +509,9 @@ a.text-black:focus {
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 .btn-form {
   border-radius: 0;
@@ -567,6 +581,24 @@ blockquote {
 /* Forms */
 .mbr-form .btn {
   margin: .4rem 0;
+}
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.form1 .input-group-btn a.btn {
+  border-radius: 0 !important;
+}
+.form1 .input-group-btn button[type="submit"] {
+  border-radius: 0 !important;
 }
 /* Footer */
 .mbr-footer-content li::before,
@@ -919,79 +951,24 @@ section.lazy-placeholder:after {
 .cid-sby9dBx2oe .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-sfZ8s0DoH5 {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background-image: url("../../../assets/images/science-720x305.png");
+.cid-shXQOSdlVY {
+  background-image: url("../../../assets/images/vr-cultural-exchange-7-2.gif");
 }
-.cid-sfZ8s0DoH5 .slider-text-two {
-  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
-  display: inline-block;
-  outline: 1px solid rgba(0, 0, 0, 0.2);
-  outline-offset: -15px;
-  padding: 65px 50px;
-  position: relative;
+.cid-shXQOSdlVY .mbr-text,
+.cid-shXQOSdlVY .mbr-section-text {
+  letter-spacing: 0.03rem;
 }
-.cid-sfZ8s0DoH5 .mbr-section-title,
-.cid-sfZ8s0DoH5 .mbr-section-subtitle {
-  color: #232323;
+.cid-shXQOSdlVY .mbr-section-title {
+  margin-left: -0.2rem;
 }
-.cid-sfZ8s0DoH5 .mbr-section-subtitle span {
-  font-weight: bold;
+.cid-shXQOSdlVY .mbr-section-title span {
+  color: #ffbc00;
 }
-.cid-sfZ8s0DoH5 .mbr-text {
-  color: #232323;
-  font-weight: 100;
-}
-.cid-sfZ8s0DoH5 .mbr-section-btn {
-  color: white;
+.cid-shXQOSdlVY .btn {
+  margin: .4rem 4px !important;
 }
 @media (max-width: 767px) {
-  .cid-sfZ8s0DoH5 .row {
-    margin-left: -15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .cid-sfZ8s0DoH5 .slider-text-two {
-    outline: 15px solid rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-  }
-}
-.cid-sfZ8GGw3V1 {
-  padding-top: 150px;
-  padding-bottom: 150px;
-  background-image: url("../../../assets/images/enigma-portal-720x305.png");
-}
-.cid-sfZ8GGw3V1 .slider-text-two {
-  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
-  display: inline-block;
-  outline: 1px solid rgba(0, 0, 0, 0.2);
-  outline-offset: -15px;
-  padding: 65px 50px;
-  position: relative;
-}
-.cid-sfZ8GGw3V1 .mbr-section-title,
-.cid-sfZ8GGw3V1 .mbr-section-subtitle {
-  color: #232323;
-}
-.cid-sfZ8GGw3V1 .mbr-section-subtitle span {
-  font-weight: bold;
-}
-.cid-sfZ8GGw3V1 .mbr-text {
-  color: #232323;
-  font-weight: 100;
-}
-.cid-sfZ8GGw3V1 .mbr-section-btn {
-  color: white;
-}
-@media (max-width: 767px) {
-  .cid-sfZ8GGw3V1 .row {
-    margin-left: -15px;
-  }
-}
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .cid-sfZ8GGw3V1 .slider-text-two {
-    outline: 15px solid rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.2);
+  .cid-shXQOSdlVY .mbr-section-title {
+    margin-left: -0.8rem;
   }
 }
